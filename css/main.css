@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.placeholder {
+  display: block;
+  width: 100%;
+  position: absolute;
+}
+
+.moth {
+  position: relative;
+}
+
+.hero {
+  position: absolute;
+  z-index: 20;
+}
